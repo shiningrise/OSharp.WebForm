@@ -1,0 +1,3 @@
+[submodule "i66soft"]
+	path = i66soft
+	url = https://github.com/i66soft/osharp.git

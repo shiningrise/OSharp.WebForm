@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Autofac.WebForm", "OSharp.Autofac.WebForm\OSharp.Autofac.WebForm.csproj", "{A60DC6EA-3BFC-4DBB-B9D3-951254E33936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Web.WebForm", "OSharp.Web.WebForm\OSharp.Web.WebForm.csproj", "{F9777FC2-36E3-4604-9F33-E69CEF68D187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "osharpV3", "osharpV3", "{59D3FAF1-A9AE-46F0-8BEB-7D3DCC2C7CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Core", "i66soft\src\OSharp.Core\OSharp.Core.csproj", "{F7C67C95-FACB-4160-9A88-CB738E65E034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Utility", "i66soft\src\OSharp.Utility\OSharp.Utility.csproj", "{946E0A0A-8280-46B3-893E-1B00A554CCAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{815C3835-1BB1-49A7-BA60-E77BD1FB684B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OSharp.WebForm", "OSharp.WebForm", "{AD32A60C-5F93-4A97-9B66-5BB2DBD5FC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Web.Demo", "OSharp.Web.Demo\OSharp.Web.Demo.csproj", "{4D0CB7E4-63E1-45C2-9285-5227661C099D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Demo.Core", "i66soft\samples\OSharp.Demo.Core\OSharp.Demo.Core.csproj", "{4E6DC732-C77F-420C-B162-869496520D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{B7EB815E-BA21-483D-A28F-33621168E98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Logging.Log4Net", "i66soft\src\OSharp.Logging.Log4Net\OSharp.Logging.Log4Net.csproj", "{6312040F-2467-4479-A764-46F687DBA66B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Data.Entity", "i66soft\src\OSharp.Data.Entity\OSharp.Data.Entity.csproj", "{D58A373C-1A9C-4BF7-833D-427E4AEF8502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.AutoMapper", "i66soft\src\OSharp.AutoMapper\OSharp.AutoMapper.csproj", "{D4AB25FE-EAC2-469F-8CEA-79C5894E7FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Permissions.OAuth", "i66soft\src\OSharp.Permissions.OAuth\OSharp.Permissions.OAuth.csproj", "{85C8D5B7-1692-434C-AFCD-01940930F6C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSharp.Permissions", "i66soft\src\OSharp.Permissions\OSharp.Permissions.csproj", "{E34D7585-25DA-4622-9019-89DBC766AD67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60DC6EA-3BFC-4DBB-B9D3-951254E33936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60DC6EA-3BFC-4DBB-B9D3-951254E33936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60DC6EA-3BFC-4DBB-B9D3-951254E33936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60DC6EA-3BFC-4DBB-B9D3-951254E33936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9777FC2-36E3-4604-9F33-E69CEF68D187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9777FC2-36E3-4604-9F33-E69CEF68D187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9777FC2-36E3-4604-9F33-E69CEF68D187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9777FC2-36E3-4604-9F33-E69CEF68D187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C67C95-FACB-4160-9A88-CB738E65E034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C67C95-FACB-4160-9A88-CB738E65E034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C67C95-FACB-4160-9A88-CB738E65E034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C67C95-FACB-4160-9A88-CB738E65E034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946E0A0A-8280-46B3-893E-1B00A554CCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946E0A0A-8280-46B3-893E-1B00A554CCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946E0A0A-8280-46B3-893E-1B00A554CCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946E0A0A-8280-46B3-893E-1B00A554CCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0CB7E4-63E1-45C2-9285-5227661C099D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0CB7E4-63E1-45C2-9285-5227661C099D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0CB7E4-63E1-45C2-9285-5227661C099D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0CB7E4-63E1-45C2-9285-5227661C099D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6DC732-C77F-420C-B162-869496520D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6DC732-C77F-420C-B162-869496520D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6DC732-C77F-420C-B162-869496520D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6DC732-C77F-420C-B162-869496520D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6312040F-2467-4479-A764-46F687DBA66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6312040F-2467-4479-A764-46F687DBA66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6312040F-2467-4479-A764-46F687DBA66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6312040F-2467-4479-A764-46F687DBA66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58A373C-1A9C-4BF7-833D-427E4AEF8502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58A373C-1A9C-4BF7-833D-427E4AEF8502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58A373C-1A9C-4BF7-833D-427E4AEF8502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58A373C-1A9C-4BF7-833D-427E4AEF8502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AB25FE-EAC2-469F-8CEA-79C5894E7FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AB25FE-EAC2-469F-8CEA-79C5894E7FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AB25FE-EAC2-469F-8CEA-79C5894E7FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AB25FE-EAC2-469F-8CEA-79C5894E7FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C8D5B7-1692-434C-AFCD-01940930F6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C8D5B7-1692-434C-AFCD-01940930F6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C8D5B7-1692-434C-AFCD-01940930F6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C8D5B7-1692-434C-AFCD-01940930F6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34D7585-25DA-4622-9019-89DBC766AD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34D7585-25DA-4622-9019-89DBC766AD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34D7585-25DA-4622-9019-89DBC766AD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34D7585-25DA-4622-9019-89DBC766AD67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7C67C95-FACB-4160-9A88-CB738E65E034} = {59D3FAF1-A9AE-46F0-8BEB-7D3DCC2C7CD3}
+		{946E0A0A-8280-46B3-893E-1B00A554CCAB} = {59D3FAF1-A9AE-46F0-8BEB-7D3DCC2C7CD3}
+		{6312040F-2467-4479-A764-46F687DBA66B} = {59D3FAF1-A9AE-46F0-8BEB-7D3DCC2C7CD3}
+		{D58A373C-1A9C-4BF7-833D-427E4AEF8502} = {59D3FAF1-A9AE-46F0-8BEB-7D3DCC2C7CD3}
+		{D4AB25FE-EAC2-469F-8CEA-79C5894E7FF0} = {59D3FAF1-A9AE-46F0-8BEB-7D3DCC2C7CD3}
+		{85C8D5B7-1692-434C-AFCD-01940930F6C5} = {59D3FAF1-A9AE-46F0-8BEB-7D3DCC2C7CD3}
+		{E34D7585-25DA-4622-9019-89DBC766AD67} = {59D3FAF1-A9AE-46F0-8BEB-7D3DCC2C7CD3}
+		{A60DC6EA-3BFC-4DBB-B9D3-951254E33936} = {AD32A60C-5F93-4A97-9B66-5BB2DBD5FC87}
+		{F9777FC2-36E3-4604-9F33-E69CEF68D187} = {AD32A60C-5F93-4A97-9B66-5BB2DBD5FC87}
+		{4E6DC732-C77F-420C-B162-869496520D99} = {B7EB815E-BA21-483D-A28F-33621168E98E}
+		{4D0CB7E4-63E1-45C2-9285-5227661C099D} = {B7EB815E-BA21-483D-A28F-33621168E98E}
+	EndGlobalSection
+EndGlobal
